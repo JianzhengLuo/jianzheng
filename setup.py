@@ -1,9 +1,8 @@
 import setuptools
 
-
 setuptools.setup(
     name="jianzheng",
-    version="1.0.0",
+    version="1.1.0",
     license='Apache 2.0',
     author="Jianzheng Luo",
     author_email="jianzheng.luo.china@gmail.com",
@@ -32,8 +31,8 @@ setuptools.setup(
     ],
     python_requires=">=3.8",
 
-    package_dir={"": "src"},
-    packages=setuptools.find_packages(where="src")
+    package_dir={"": "./src"},
+    packages=setuptools.find_packages(where="./src")
 )
 
 
